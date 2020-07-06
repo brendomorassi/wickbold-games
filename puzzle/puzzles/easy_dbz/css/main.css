@@ -1,0 +1,11 @@
+body {
+    padding: 0px;
+}
+#container {
+    display: block;
+    margin: 0 auto;
+}
+
+#background {
+    opacity: 0.3;
+}

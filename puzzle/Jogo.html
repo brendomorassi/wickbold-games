@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+        .wrap
+        {
+            width: 100%;
+            height: 500px;
+            padding: 0;
+            overflow: hidden;
+            margin: none;
+        }
+        #frame
+        {
+            overflow-x: hidden;
+            -webkit-transform: scale(.7);
+            -webkit-transform-origin: 0 0;
+            width: 120%;
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+<!--<iframe id="frame" src="puzzles/medium_assassins/index.html"></iframe>-->
+<iframe id="frame" src="puzzles/easy_dbz/index.html"></iframe>
+<!--<iframe id="frame" src="puzzles/hard_alienxpredator/index.html"></iframe>-->
+<script>
+    function disableScrolling(){
+        var x=window.scrollX;
+        var y=window.scrollY;
+        window.onscroll=function(){window.scrollTo(x, y);};
+    }
+
+    function enableScrolling(){
+        window.onscroll=function(){};
+    }
+
+</script>
+</body>
+</html>
